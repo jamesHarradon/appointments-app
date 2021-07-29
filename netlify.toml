@@ -1,0 +1,15 @@
+[[redirects]]
+  from = "/contacts"
+  to = "/"
+  status = 301
+  force = false
+  query = {path = ":path"}
+  conditions = {Language = ["en","es"], Country = ["US"]}
+
+[[redirects]]
+  from = "/appointments"
+  to = "/"
+  status = 301
+  force = false
+  query = {path = ":path"}
+  conditions = {Language = ["en","es"], Country = ["US"]}
