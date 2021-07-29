@@ -69,6 +69,7 @@ export const ContactsPage = (props) => {
 
   useEffect(() => {
     sortContacts();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [props.contacts])
 
   /*
